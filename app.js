@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "data.txt",
-        dataType: "text",
+        url: "data.json",
+        dataType: "json",
         success: function(data) {
 			processData(data);
 		;}
@@ -11,6 +11,5 @@ $(document).ready(function() {
 
 function processData(data){
 	
-	$('div').append(data);
-	
+	$('div').append(data.second);
 }
