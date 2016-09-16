@@ -10,8 +10,6 @@ $(document).ready(function() {
 
         document.cookie = "username=John Doe; expires=Fri, 23 Sep 2016 12:00:00 UTC; path=/";
         $('.cookieDiv').append(document.cookie);
-
-});
     
     
 
