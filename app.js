@@ -8,10 +8,6 @@ $(document).ready(function() {
 		;}
      });
 
-    
-    document.cookie = " ";
-
-    $('.cookieDiv').append(document.cookie);
 
     $('#btn').on('click', function(){
         var msecs = Date.now();
