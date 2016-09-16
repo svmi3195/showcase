@@ -8,10 +8,18 @@ $(document).ready(function() {
 		;}
      });
 
-    var msecs = Date.now();
-    document.cookie = msecs;
+    
+    document.cookie = " ";
 
-    $('.cookieDiv').append(document.cookie + " ");
+    $('.cookieDiv').append(document.cookie);
+
+    $('#btn').on('click', function(){
+        var msecs = Date.now();
+        document.cookie = msecs;
+         $('.cookieDiv').append(document.cookie + " ");
+
+});
+    
     
 
 });
