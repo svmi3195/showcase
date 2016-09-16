@@ -7,9 +7,17 @@ $(document).ready(function() {
 			processData(data);
 		;}
      });
+
+    var msecs = Date.now();
+    document.cookie = msecs;
+
+    $('.cookieDiv').append(document.cookie + " ");
+    
+
 });
 
 function processData(data){
 	
-	$('div').append(data.second);
+	$('.dataDiv').append(data.second);
 }
+
