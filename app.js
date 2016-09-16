@@ -8,11 +8,8 @@ $(document).ready(function() {
 		;}
      });
 
-
-    $('#btn').on('click', function(){
-        var msecs = Date.now();
-        document.cookie = msecs;
-         $('.cookieDiv').append(document.cookie + " ");
+        document.cookie = "username=John Doe; expires=Fri, 23 Sep 2016 12:00:00 UTC; path=/";
+        $('.cookieDiv').append(document.cookie);
 
 });
     
