@@ -21,3 +21,21 @@ ul{
   list-style-type: none;
   list-style-position: inside;
 }
+
+li:before{
+  font-family: 'FontAwesome';
+  margin:0 5px 0 -15px;
+  color: white;
+}
+
+.workingon:before {
+content:  '\f061';
+}
+
+.linkgithub:before {
+content:  '\f09b';
+}
+
+.linkcodepen:before {
+content:  '\f1cb';
+}
