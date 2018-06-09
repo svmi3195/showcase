@@ -1,6 +1,6 @@
 <template>
 <footer>
-    I am footer
+    made by svmi3195 in 2018
 </footer>    
 </template>
 

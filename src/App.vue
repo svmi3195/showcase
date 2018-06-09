@@ -48,12 +48,12 @@ main{
 header{
     width: 100%;
     height: 4rem;
-    background-color: red;
 }
 
 footer{
     width: 100%;
-    height: 4rem;
-    background-color: red;
+    padding: 2rem 0;
+    background-color: rgb(63, 56, 56);
+    color: azure;
 }
 </style>
