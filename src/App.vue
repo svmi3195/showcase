@@ -70,5 +70,16 @@ footer{
     color: azure;
 }
 
+button{
+  font-size: 1.2rem;
+  background-color: rgb(63, 56, 56);
+  color: azure;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+}
 
+button:hover{
+  color: rgb(148, 181, 231);
+}
 </style>
