@@ -27,18 +27,22 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 html, body, #app{
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 
 main{
     max-width: 1200px;
     border: 3px black solid;
-    padding: 10x;
-    margin: auto;
+    padding: 10px;
+    margin: 0 auto;
+    flex-grow: 1;
 }
 
 header{
