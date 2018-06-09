@@ -1,6 +1,6 @@
 <template>
 <div>
-    I am about
+    I am projects
 </div>    
 </template>
 
