@@ -1,9 +1,12 @@
 <template>
-<p>This is home view</p>    
+<div>
+    I am home
+</div>    
 </template>
 
 <script>
 export default {
+    
     
 }
 </script>
