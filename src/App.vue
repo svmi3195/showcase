@@ -45,6 +45,11 @@ main{
     flex-grow: 1;
 }
 
+main article{
+  max-width: 600px;
+  font-size: 1.2rem;
+}
+
 header{
     width: 100%;
     padding: 1rem 0;
@@ -64,4 +69,6 @@ footer{
     background-color: rgb(63, 56, 56);
     color: azure;
 }
+
+
 </style>
