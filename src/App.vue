@@ -47,7 +47,15 @@ main{
 
 header{
     width: 100%;
-    height: 4rem;
+    padding: 1rem 0;
+    background-color: rgb(63, 56, 56);
+    color: azure;
+}
+
+header a{
+  color: azure;
+  font-size: 1.3rem;
+  margin: 0 0.7rem;
 }
 
 footer{
