@@ -1,17 +1,14 @@
 <template>
 <footer>
     made by svmi3195 in 2018
-</footer>    
+</footer>
 </template>
 
 <script>
 
-export default {    
+export default {
 }
 </script>
 
 <style scoped>
-
-
-
 </style>

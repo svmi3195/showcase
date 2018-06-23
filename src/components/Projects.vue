@@ -1,13 +1,11 @@
 <template>
 <div>
     I am projects
-</div>    
+</div>
 </template>
 
 <script>
 export default {
-    
-    
 }
 </script>
 

@@ -4,7 +4,7 @@
     <main>
       <router-view/>
     </main>
-    <app-footer></app-footer>    
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -14,10 +14,10 @@ import Footer from '@/components/Footer'
 
 export default {
   name: 'App',
-  components:{
-        'appHeader': Header,
-        'appFooter': Footer
-    }
+  components: {
+    appHeader: Header,
+    appFooter: Footer
+  }
 }
 </script>
 

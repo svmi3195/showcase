@@ -1,13 +1,11 @@
 <template>
 <div>
     I am contacts
-</div>    
+</div>
 </template>
 
 <script>
 export default {
-    
-    
 }
 </script>
 

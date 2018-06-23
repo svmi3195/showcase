@@ -7,13 +7,12 @@
         <p>This site was made using <a href="https://vuejs.org">vue.js</a>.</p>
     </article>
     <button>Random project</button>
-</div>    
+</div>
 </template>
 
 <script>
 export default {
-    
-    
+
 }
 </script>
 

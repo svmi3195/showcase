@@ -6,17 +6,14 @@
         <router-link to="projects">Projects</router-link>
         <router-link to="contacts">Contacts</router-link>
     </div>
-</header>    
+</header>
 </template>
 
 <script>
 
-export default {    
+export default {
 }
 </script>
 
 <style scoped>
-
-
-
 </style>
