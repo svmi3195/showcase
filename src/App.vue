@@ -39,7 +39,6 @@ html, body, #app{
 
 main{
     max-width: 1200px;
-    border: 3px black solid;
     padding: 10px;
     margin: 0 auto;
     flex-grow: 1;
@@ -48,6 +47,7 @@ main{
 main article{
   max-width: 600px;
   font-size: 1.2rem;
+  text-align: left;
 }
 
 header{
