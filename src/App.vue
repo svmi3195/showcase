@@ -70,6 +70,10 @@ footer{
     color: azure;
 }
 
+footer a{
+  color: azure;
+}
+
 button{
   font-size: 1.2rem;
   background-color: rgb(63, 56, 56);
