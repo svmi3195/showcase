@@ -1,11 +1,12 @@
 <template>
-<div>
-    I am contacts
+<div class="card">
+    {{ text }}
 </div>
 </template>
 
 <script>
 export default {
+    props: ['text']
 }
 </script>
 
