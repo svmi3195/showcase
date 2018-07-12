@@ -4,7 +4,7 @@
     <app-card
     v-for="project in this.projects"
     v-bind:key="project.id"
-    v-bind:text="project.text"
+    v-bind:name="project.name"
     ></app-card>
     </div>
 </div>
@@ -17,8 +17,10 @@ export default {
     components: {
         appCard: Card
     },
-    data: function() {
-        return { projects: [{text: 'one'}, {text: 'two'}, {text: 'three'}, {text: 'one'}, {text: 'two'}, {text: 'three'}]}
+    computed: {
+        projects() {
+            return this.$store.state.projects
+        }
     }
 }
 </script>

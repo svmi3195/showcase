@@ -1,12 +1,12 @@
 <template>
 <div class="card">
-    {{ text }}
+    {{ name }}
 </div>
 </template>
 
 <script>
 export default {
-    props: ['text']
+    props: ['name']
 }
 </script>
 
