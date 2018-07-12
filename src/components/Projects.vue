@@ -1,10 +1,12 @@
 <template>
 <div>
+    <div class="cardsWrapper">
     <app-card
     v-for="project in this.projects"
     v-bind:key="project.id"
     v-bind:text="project.text"
     ></app-card>
+    </div>
 </div>
 </template>
 
@@ -16,7 +18,7 @@ export default {
         appCard: Card
     },
     data: function() {
-        return { projects: [{text: 'one'}, {text: 'two'}, {text: 'three'}]}
+        return { projects: [{text: 'one'}, {text: 'two'}, {text: 'three'}, {text: 'one'}, {text: 'two'}, {text: 'three'}]}
     }
 }
 </script>

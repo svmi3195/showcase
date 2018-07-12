@@ -91,5 +91,13 @@ button:hover{
   width: 300px;
   height: 300px;
   border: 2px solid gray;
+  margin: 10px;
+}
+
+.cardsWrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 </style>
