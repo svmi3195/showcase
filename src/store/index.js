@@ -7,13 +7,15 @@ export default new Vuex.Store({
   state: {
     projects: [
       {
-        name: 'project1'
+        id: 1,
+        name: 'Random name generator',
+        description: 'Random name generator based on letters frequency',
+        used: ['jQuery']
       },
-      {
-        name: 'project2'
-      },
-      {
-        name: 'project3'
+      { id: 2,
+        name: 'MWS Restaurants Reviews',
+        description: 'Project made during Udacity/Google Scholarship course',
+        used: ['Flexbox', 'Service worker', 'IndexedDB', 'Background sync']
       }
     ]
   },
