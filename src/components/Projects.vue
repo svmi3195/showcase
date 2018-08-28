@@ -5,6 +5,8 @@
       v-for="project in this.projects"
       v-bind:key="project.id"
       v-bind:name="project.name"
+      v-bind:description="project.description"
+      v-bind:used="project.used"
     ></app-card>
   </div>
 </div>

@@ -10,7 +10,7 @@ export default new Vuex.Store({
         id: 1,
         name: 'Random name generator',
         description: 'Random name generator based on letters frequency',
-        used: ['jQuery']
+        used: ['jQuery', 'Foundation']
       },
       { id: 2,
         name: 'MWS Restaurants Reviews',

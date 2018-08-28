@@ -1,12 +1,14 @@
 <template>
 <div class="card">
-  {{ name }}
+  <h2> {{ name }} </h2>
+  <p> {{ description }} </p>
+  <p>Used: {{ used }} </p>
 </div>
 </template>
 
 <script>
 export default {
-  props: ['name']
+  props: ['name', 'description', 'used']
 }
 </script>
 
