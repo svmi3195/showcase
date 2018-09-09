@@ -10,12 +10,16 @@ export default new Vuex.Store({
         id: 1,
         name: 'Random name generator',
         description: 'Random name generator based on letters frequency',
-        used: ['jQuery', 'Foundation']
+        used: ['jQuery', 'Foundation'],
+        github: '',
+        live: ''
       },
       { id: 2,
         name: 'MWS Restaurants Reviews',
         description: 'Project made during Udacity/Google Scholarship course',
-        used: ['Flexbox', 'Service worker', 'IndexedDB', 'Background sync']
+        used: ['Flexbox', 'Service worker', 'IndexedDB', 'Background sync'],
+        github: '',
+        live: ''
       }
     ]
   },
