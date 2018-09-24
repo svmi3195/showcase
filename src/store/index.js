@@ -10,14 +10,28 @@ export default new Vuex.Store({
         id: 1,
         name: 'Random name generator',
         description: 'Random name generator based on letters frequency',
-        used: ['jQuery', 'Foundation'],
+        used: ['jQuery', 'Zurb Foundation'],
         github: '',
         live: ''
       },
       { id: 2,
-        name: 'MWS Restaurants Reviews',
-        description: 'Project made during Udacity/Google Scholarship course',
+        name: 'Restaurants Reviews',
+        description: 'Project made during Udacity Mobile Web Specialist course',
         used: ['Flexbox', 'Service worker', 'IndexedDB', 'Background sync'],
+        github: '',
+        live: ''
+      },
+      { id: 3,
+        name: 'Bears 15 Cards',
+        description: 'Flashcards application made in collaboration with two other coders',
+        used: ['Flexbox', 'Vue.js', 'Vuex', 'MongoDb'],
+        github: '',
+        live: ''
+      },
+      { id: 4,
+        name: 'Game of Life',
+        description: 'Implementation of Conway\'s Game of Life',
+        used: ['HTML5 canvas', 'vanilla JS'],
         github: '',
         live: ''
       }
