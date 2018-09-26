@@ -39,6 +39,7 @@ export default new Vuex.Store({
   },
   getters: {
     projectsAll: state => state.projects,
-    projectsSorted: state => state.projects.sort((a, b) => a.id - b.id)
+    projectsSorted: state => state.projects.sort((a, b) => a.id - b.id),
+    randomProject: state => state.projects[Math.floor(Math.random() * state.projects.length)]
   }
 })

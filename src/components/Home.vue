@@ -6,12 +6,27 @@
     <p>In case you want to contact me or look at my profiles at different sites, head to contacts section.</p>
   </article>
   <button>Random project</button>
+  <app-card
+      v-bind:key="this.project.id"
+      v-bind:name="this.project.name"
+      v-bind:description="this.project.description"
+      v-bind:used="this.project.used"
+    ></app-card>
 </div>
 </template>
 
 <script>
-export default {
+import Card from '@/components/Card'
 
+export default {
+  components: {
+    appCard: Card
+  },
+  computed: {
+    project() {
+      return this.$store.getters.randomProject
+    }
+  }
 }
 </script>
 
