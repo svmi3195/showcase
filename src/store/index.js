@@ -7,21 +7,21 @@ export default new Vuex.Store({
   state: {
     projects: [
       {
-        id: 1,
+        id: 3,
         name: 'Random name generator',
         description: 'Random name generator based on letters frequency',
         used: ['jQuery', 'Zurb Foundation'],
         github: '',
         live: ''
       },
-      { id: 2,
+      { id: 1,
         name: 'Restaurants Reviews',
         description: 'Project made during Udacity Mobile Web Specialist course',
         used: ['Flexbox', 'Service worker', 'IndexedDB', 'Background sync'],
         github: '',
         live: ''
       },
-      { id: 3,
+      { id: 2,
         name: 'Bears 15 Cards',
         description: 'Flashcards application made in collaboration with two other coders',
         used: ['Flexbox', 'Vue.js', 'Vuex', 'MongoDb'],
@@ -38,6 +38,7 @@ export default new Vuex.Store({
     ]
   },
   getters: {
-    projectsAll: state => state.projects
+    projectsAll: state => state.projects,
+    projectsSorted: state => state.projects.sort((a, b) => a.id - b.id)
   }
 })
