@@ -35,6 +35,20 @@ export default new Vuex.Store({
         github: '',
         live: ''
       }
+    ],
+    contacts: [
+      {
+        name: 'Github',
+        link: 'https://github.com/svmi3195'
+      },
+      {
+        name: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/svmi-02004019/'
+      },
+      {
+        name: 'Medium',
+        link: 'https://medium.com/@svmi3195'
+      }
     ]
   },
   getters: {
