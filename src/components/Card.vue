@@ -5,7 +5,7 @@
   <p class="description"> {{ description }} </p>
   </div>
   <p>
-    <span 
+    <span
     v-for="item in used"
     v-bind:key="item">
     {{ item }}</span>
