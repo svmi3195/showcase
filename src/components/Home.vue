@@ -34,6 +34,9 @@ export default {
     showRandom() {
       this.project = this.projectsAll[Math.floor(Math.random() * this.projectsAll.length)];
     }
+  },
+  created() {
+    this.showRandom();
   }
 };
 </script>
