@@ -6,6 +6,8 @@
       v-bind:key="project.id"
       v-bind:name="project.name"
       v-bind:description="project.description"
+      v-bind:github="project.github"
+      v-bind:live="project.live"
       v-bind:used="project.used"
     ></app-card>
   </div>

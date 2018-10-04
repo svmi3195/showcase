@@ -11,29 +11,29 @@ export default new Vuex.Store({
         name: 'Random name generator',
         description: 'Random name generator based on letters frequency',
         used: ['jQuery', 'Zurb Foundation'],
-        github: '',
-        live: ''
+        github: 'https://github.com/svmi3195/random_name_generator',
+        live: 'http://random-name-gen.surge.sh/'
       },
       { id: 1,
-        name: 'Restaurants Reviews',
+        name: 'Restaurant Reviews',
         description: 'Project made during Udacity Mobile Web Specialist course',
         used: ['Flexbox', 'Service worker', 'IndexedDB', 'Background sync'],
-        github: '',
-        live: ''
+        github: 'https://github.com/svmi3195/mws-restaurant-reviews',
+        live: null
       },
       { id: 2,
         name: 'Bears 15 Cards',
         description: 'Flashcards application made in collaboration with two other coders',
         used: ['Flexbox', 'Vue.js', 'Vuex', 'MongoDb'],
-        github: '',
-        live: ''
+        github: 'https://github.com/chingu-voyage4/Bears-Team-15',
+        live: 'https://cards-bears-15.herokuapp.com/'
       },
       { id: 4,
         name: 'Game of Life',
         description: 'Implementation of Conway\'s Game of Life',
         used: ['HTML5 canvas', 'vanilla JS'],
-        github: '',
-        live: ''
+        github: 'https://github.com/svmi3195/freecodecamp_projects/tree/master/game-of-life',
+        live: 'https://codepen.io/svmi3195/full/vJbKgO/'
       }
     ],
     contacts: [

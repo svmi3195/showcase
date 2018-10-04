@@ -3,6 +3,10 @@
   <div>
   <h2> {{ name }} </h2>
   <p class="description"> {{ description }} </p>
+  <p>
+  <a :href="github">Github</a><br>
+  <a v-if="live" :href="live">Live</a>
+  </p>
   </div>
   <p>
     <span
@@ -15,7 +19,7 @@
 
 <script>
 export default {
-  props: ['name', 'description', 'used']
+  props: ['name', 'description', 'github', 'live', 'used']
 }
 </script>
 
