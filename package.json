@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js -p"
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "homepage": "https://github.com/svmi3195/svmi3195.github.io",
   "dependencies": {
