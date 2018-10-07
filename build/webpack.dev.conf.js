@@ -63,6 +63,11 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         from: path.resolve(__dirname, '../static'),
         to: config.dev.assetsSubDirectory,
         ignore: ['.*']
+      },
+      {
+        from: path.resolve(__dirname, '../public'), 
+        to: config.dev.assetsPublicPath, 
+        ignore: [ 'index.html', '.DS_Store' ] 
       }
     ])
   ]
