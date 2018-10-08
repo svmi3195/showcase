@@ -3,9 +3,9 @@
     window.addEventListener('load', function() {
       //register service worker
       navigator.serviceWorker.
-      register('/sw.js')
+      register('/showcase/sw.js')
       .then(function(registration) {
-        //console.log('Registration successful, scope is:', registration.scope);
+        console.log('Registration successful, scope is:', registration.scope);
       })
       .catch(err => {console.log(err)})
       });    
