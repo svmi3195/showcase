@@ -12,6 +12,17 @@
     <!-- built files will be auto injected -->
   </body>
   <script>
-
+    //register service worker
+    if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      //register service worker
+      navigator.serviceWorker.
+      register('/showcase/sw.js')
+      .then(function(registration) {
+        //console.log('Registration successful, scope is:', registration.scope);
+      })
+      .catch(err => {console.log(err)})
+      });    
+    }
   </script>
 </html>
