@@ -8,6 +8,8 @@ self.addEventListener('install', function(event){
         '/showcase',
         '/showcase/index.html'
       ])
+    }).catch(function(err){
+      console.log(err);
     })
   )
 })
