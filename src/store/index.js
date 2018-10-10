@@ -36,20 +36,23 @@ export default new Vuex.Store({
         live: 'https://codepen.io/svmi3195/full/vJbKgO/'
       }
     ],
-    contacts: [
-      {
-        name: 'Github',
-        link: 'https://github.com/svmi3195'
-      },
-      {
-        name: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/svmi-02004019/'
-      },
-      {
-        name: 'Medium',
-        link: 'https://medium.com/@svmi3195'
-      }
-    ]
+    contacts: {
+      social: [
+        {
+          name: 'Github',
+          link: 'https://github.com/svmi3195'
+        },
+        {
+          name: 'LinkedIn',
+          link: 'https://www.linkedin.com/in/svmi-02004019/'
+        },
+        {
+          name: 'Medium',
+          link: 'https://medium.com/@svmi3195'
+        }
+      ],
+      email: 'target1983@gmail.com'
+    }
   },
   getters: {
     projectsAll: state => state.projects,

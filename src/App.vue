@@ -84,7 +84,8 @@ button{
 }
 
 button:hover{
-  color: rgb(148, 181, 231);
+  color: white;
+  background-color: black;
 }
 
 .card{
