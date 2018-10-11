@@ -53,7 +53,7 @@ main article{
 header{
     width: 100%;
     padding: 1rem 0;
-    background-color: rgb(63, 56, 56);
+    background-color: #3f3838;
     color: azure;
 }
 
@@ -66,7 +66,7 @@ header a{
 footer{
     width: 100%;
     padding: 2rem 0;
-    background-color: rgb(63, 56, 56);
+    background-color: #3f3838;
     color: azure;
 }
 
@@ -76,7 +76,7 @@ footer a{
 
 button{
   font-size: 1.2rem;
-  background-color: rgb(63, 56, 56);
+  background-color: #3f3838;
   color: azure;
   padding: 0.5rem 1rem;
   border: none;
