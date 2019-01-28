@@ -1,3 +1,0 @@
-#allow crawling all content
-User-agent: *
-Disallow:
